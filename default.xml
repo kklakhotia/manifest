@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remote  name="my_repo" fetch="ssh://github.com/" review="https://github.com"/>
+    <remote  name="my_repo" fetch="ssh://git@github.com/kklakhotia" review="https://git@github.com/kklakhotia"/>
     <default revision="master" remote="my_repo" sync-j="4" />
 
-    <project path="git_training" name="kklakhotia/new_git_training" />
-    <project path="RemoteRepo" name="kklakhotia/RemoteRepo" />
+    <project path="git_training" name="new_git_training" />
+    <project path="RemoteRepo" name="RemoteRepo" />
 </manifest>
